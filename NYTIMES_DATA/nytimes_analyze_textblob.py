@@ -28,8 +28,8 @@ def analyze(path,output_path):
     temp = soup.find('input', {"name": 'expires'})
     #get the expires value
     expires = temp['value']
-    username = 'xtang14@u.rochester.edu'
-    password = 't1540706281'
+    username = 'XXXXXXXXXXXXXXXXXXXXX'
+    password = 'XXXXXXXXXXXXXXXXXXXXX'
     #account and password
     payload = {'userid': username, 'password': password, 'token': token, 'is_continue': 'true',
                'expires': expires}
