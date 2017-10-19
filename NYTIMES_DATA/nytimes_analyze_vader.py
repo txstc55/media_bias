@@ -21,8 +21,8 @@ def analyze(path,output_path):
     token = temp['value']
     temp = soup.find('input', {"name": 'expires'})
     expires = temp['value']
-    username = 'xtang14@u.rochester.edu'
-    password = 't1540706281'
+    username = 'XXXXXXXXXXXXXXXXXXXXXXX'
+    password = 'XXXXXXXXXXXXXX'
 
     payload = {'userid': username, 'password': password, 'token': token, 'is_continue': 'true',
                'expires': expires}
